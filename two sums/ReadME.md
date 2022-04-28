@@ -1,7 +1,7 @@
 ### problem: Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 ### example: given nums = [2, 7, 11, 15] & target = 9 because nums[0] + nums[1] = 9, return [0,1].
 ### you may assume that each input would have exactly one solution, and you may not use the same element twice.
-### [-2, 1, -3, 4, -1, 2, 1, -5, 4] - target = 4
+### [2, 1, 5, 3] - target = 4
 
 #### solution: we're guaranteed that there's exactly one solution, so we don't have to worry about either having a solution or multiple solutions. the most intuitive way of solving this problem is basically just checking every combination of two values that match the target.
 

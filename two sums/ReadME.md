@@ -9,7 +9,7 @@
 
 #### there's a pattern here, at index = 1 we have the value = 1 and we're looking for value = 3 so that 3 + 1 = 4 and basically we are looking for (target - start), we don't have to check each value in our array, we just create a hashmap :
 
-index | value 
+value | index 
 :---: | :---:  
 2 | 0  
 1 | 1  

@@ -1,13 +1,14 @@
-const twoSum = (array, goal) => {
-    let indexes = [];
-
+const twoSums = (array, goal) => {
+    hashmap = {}
     for (let i = 0; i < array.length; i++) {
-        for (let j = i + 1; j < array.length; j++) {
-            if (array[i] + array[j] === goal) {
-                indexes.push(i);
-                indexes.push(j);
-            }
+        let diff = goal - array[i]
+        if (diff in hashmap) {
+            return [hashmap[diff], i]
         }
+        hashmap[array[i]] = i
     }
-    return indexes;
+    return
 }
+
+console.log(twoSums([2, 7, 11, 15], 9))
+console.log(twoSums([2, 1, 5, 3], 4))

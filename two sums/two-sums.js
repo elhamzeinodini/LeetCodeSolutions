@@ -1,5 +1,5 @@
 const twoSums = (array, goal) => {
-    hashmap = {}
+    let hashmap = {}
     for (let i = 0; i < array.length; i++) {
         let diff = goal - array[i]
         if (diff in hashmap) {

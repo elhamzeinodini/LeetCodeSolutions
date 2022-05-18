@@ -20,11 +20,11 @@
 
 
 #### then we compare 4 from 1->2->4 to 4 from 1->3->4, they're the same, we'll pick the first one:
-#### output: dummyNode -> 1 -> 1 -> 2 -> 4
+#### output: dummyNode -> 1 -> 1 -> 2 -> 3 -> 4
 
 
 #### in list 1 there are no values to compare but in list 2 we have another 4 left, we can take the remaining of list 2 and insert it to list 1 :
-#### output: dummyNode -> 1 -> 1 -> 2 -> 4 -> 4
+#### output: dummyNode -> 1 -> 1 -> 2 -> 3 -> 4 -> 4
 
 
 #### time complexity = o(n) linear

@@ -1,8 +1,5 @@
-<h1>You are climbing a staircase, it takes <span style="background-color: #E8E8E8">n</span> steps to reach the top</h1>
-
-<br/>
-
-<h2>each time you can either climb 1 or 2 steps, in how many distict (different) ways can you climb to the top ?</h2>
+<h1>You are climbing a staircase, it takes <span style="background-color: #E8E8E8">n</span> steps to reach the top
+,each time you can either climb 1 or 2 steps, in how many distict (different) ways can you climb to the top ?</h1>
 
 <br/>
 

@@ -14,7 +14,11 @@ another approach is that at the index of 0 we move to index 2 directly , we are 
 <br/>
 another approach to understand this problem is by using a decision tree with the n = 5 (for example), the time complexity is 2 to the power of the height of the decision tree or 2^n, which is not supper efficient.
 <br/>
+<br/>
+<br/>
 <img src="./WhatsApp Image 2022-05-25 at 3.07.14 PM.jpeg" alt="decision tree">
+<br/>
+<br/>
 <br/>
 for example, in this decision tree when we get to 2, we're gonna calculate the number of items that has the result of 5, which is 3 so <b>3 steps + 2 steps</b> and we can calculate other ways like this.
 <br/>

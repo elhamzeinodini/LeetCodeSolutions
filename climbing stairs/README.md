@@ -13,7 +13,7 @@ another approach to understand this problem is by using a decision tree with the
 <br/>
 <br/>
 <br/>
-<img src="./WhatsApp Image 2022-05-25 at 3.07.14 PM.jpeg" alt="decision tree">
+<img src="./img.jpeg" alt="decision tree">
 <br/>
 <br/>
 <br/>

@@ -6,7 +6,7 @@ class TreeNode:
         
         
 class Solution:
-    def diameter(self, root:TreeNode) -> TreeNode :
+    def diameter(self, root:TreeNode) -> int :
         res = [0]
         def dfs(root):
             # if root is null

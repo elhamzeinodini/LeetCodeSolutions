@@ -31,5 +31,4 @@ describe("findValidString", () => {
   });
 });
 
-
-// npx jest findValidString.test.js
+// npx jest good-string-bad-string.test.js

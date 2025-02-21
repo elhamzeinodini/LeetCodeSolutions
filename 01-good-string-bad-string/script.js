@@ -43,3 +43,5 @@ function findValidString(s, t, len) {
 module.exports = {
   findValidString,
 };
+
+// npx jest good-string-bad-string.test.js

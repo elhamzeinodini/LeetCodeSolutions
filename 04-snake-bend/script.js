@@ -44,14 +44,6 @@ function bendingSnake(moves) {
   return container.map((item) => item.join("")).join("\n");
 }
 
-console.log(bendingSnake("FFLFFFF"));
-console.log(bendingSnake("FFFFFFF"));
-console.log(bendingSnake("FLFRFLF"));
-console.log(bendingSnake("FRFFFFF"));
-console.log(bendingSnake("FLFFFFF"));
-console.log(bendingSnake("FRFRFFF"));
-console.log(bendingSnake("FFFFFFR"));
-
 module.exports = {
   bendingSnake,
 };
